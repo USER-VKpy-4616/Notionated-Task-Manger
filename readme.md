@@ -22,6 +22,21 @@ Multimodal RAG app built with Gemini AI and pathway LLM is used to analyze the s
 3.Streamlit  
 Streamlit is used to built a simple UI to get the notion integration id and table id from the end user, which in connection with Notion API doqnloads the database as a csv file. After the Multimodal RAG goes through the csv file, we can ask questions through the UI which in turn answers our questions.
 
+# Installation
+## 1.Prerequisites  
+Docker : [https://www.docker.com/](#feature)
+Gemini AI API key : [https://ai.google.dev/gemini-api/docs/api-key](#feature)
+## 2. Environment Setup
+Create a .env file in the root directory of your project.  
+Add the following lines to the .env file, replacing {YOUR_GEMINIAI_KEY} with your actual GEMINI API key:  
+`GEMINI_API_KEY={YOUR_GEMINIAI_KEY}`
+## 3.Build and run the docker image
+`docker build -t imagename . `  
+`docker run -v "${PWD}/data:/app/data" -p 8501:8501 imagename `
+## 4.Access the application
+Open your web browser.  
+Navigate to `localhost:8501` to access the application.
+
 
 
 
