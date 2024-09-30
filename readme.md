@@ -37,6 +37,9 @@ Add the following lines to the .env file, replacing {YOUR_GEMINIAI_KEY} with you
 Open your web browser.  
 Navigate to `localhost:8501` to access the application.
 
+# Endusers
+Notionated Task Manager is incredibly useful for students as it simplifies the process of managing tasks and schedules. With the ability to interact in natural language, students can easily input their assignments, deadlines, and commitments without needing to navigate complex interfaces. This intuitive communication reduces the cognitive load of organization, allowing students to focus more on their studies.By providing insights into their workload and schedules, the app promotes better time management and reduces stress, ultimately enhancing academic performance and overall well-being.
+
 
 
 
