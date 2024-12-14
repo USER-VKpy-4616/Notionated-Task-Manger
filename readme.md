@@ -20,7 +20,7 @@ Using Notion API , the task management table database created in notion app is e
 Multimodal RAG app built with Gemini AI and pathway LLM is used to analyze the stored csv file.
 
 3.Streamlit  
-Streamlit is used to built a simple UI to get the notion integration id and table id from the end user, which in connection with Notion API doqnloads the database as a csv file. After the Multimodal RAG goes through the csv file, we can ask questions through the UI which in turn answers our questions.
+Streamlit is used to built a simple UI to get the notion integration id and table id from the end user, which in connection with Notion API downloads the database as a csv file. After the Multimodal RAG goes through the csv file, we can ask questions through the UI which in turn answers our questions.
 
 # Installation
 ## 1.Prerequisites  
